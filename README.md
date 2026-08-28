@@ -1,89 +1,88 @@
 # Nextendo App — iOS
 
-L'application compagnon de [Nextendo Network](https://nextendo.network) : ton compte, tes amis et
-tes parties dans la poche.
+The companion app for [Nextendo Network](https://nextendo.network): your account, your friends
+and your play sessions, in your pocket.
 
-<sub>iPhone · iOS 16 et plus · français, anglais, espagnol, portugais, allemand, italien, russe,
-chinois, japonais, arabe</sub>
-
----
-
-## Ce qu'elle fait
-
-**Tes amis.** La liste complète avec la photo de chacun, qui est en ligne, à quoi il joue et
-depuis quel appareil — l'émulateur ou une vraie console. Recherche par pseudo, par nom de compte
-ou par code ami. Les meilleurs amis restent en tête, toujours au même endroit. Demandes d'amitié,
-blocages, et le code ami de ton compte pour te faire ajouter.
-
-**Ce qui se passe maintenant.** L'accueil dit qui joue, à quoi, et depuis combien de temps. Le fil
-d'activité remonte les parties récentes de tout le monde, jeu par jeu.
-
-**Les jeux.** N'importe quel jeu Switch se cherche par son nom — la base couvre tout le catalogue,
-pas seulement les jeux dont on héberge l'en ligne. Chaque fiche donne les visuels, la description
-dans ta langue, l'éditeur, la date de sortie, et lesquels de tes amis y jouent.
-
-**Les mods.** Le catalogue GameBanana du jeu, avec ses captures, ses fichiers et ce que l'auteur
-autorise. Mets un mod de côté et tu le retrouves dans le magasin de l'émulateur — c'est la même
-liste, attachée à ton compte.
-
-**Tes sauvegardes.** Celles que l'émulateur a envoyées dans le nuage, avec leur poids et leur
-date. Et ton historique de jeu : le temps passé sur chaque titre.
-
-**Ta console.** Scanne le QR affiché par une Switch pour la rattacher à ton compte.
+<sub>iPhone · iOS 16 and later · English, French, Spanish, Portuguese, German, Italian, Russian,
+Chinese, Japanese, Arabic</sub>
 
 ---
 
-## Installation
+## What it does
 
-L'application n'est pas sur l'App Store. Trois chemins, selon ton appareil.
+**Your friends.** The full list with everyone's picture, who is online, what they are playing and
+from which device — the emulator or a real console. Search by nickname, account name or friend
+code. Best friends stay at the top, always in the same place. Friend requests, blocking, and your
+own friend code to get added.
 
-### iPhone jailbreaké — le paquet `.deb` (recommandé)
+**What's happening now.** The home screen shows who is playing, what, and for how long. The
+activity feed brings up everyone's recent sessions, grouped by game.
 
-C'est la voie la plus sûre : le paquet copie les fichiers et ne passe jamais par le service
-d'installation d'iOS, qui refuse parfois une application non signée par Apple.
+**Games.** Any Switch game can be looked up by name — the database covers the whole catalogue,
+not only the games whose online we host. Each page gives the artwork, the description in your
+language, the publisher, the release date, and which of your friends play it.
 
-1. Télécharge `NextendoApp.deb` depuis la [dernière version](../../releases/latest).
-2. Transfère-le sur le téléphone (Filza lit un partage réseau, AirDrop et les nuages).
-3. Dans **Filza**, appuie sur le fichier → **Installer**.
+**Mods.** The game's GameBanana catalogue, with its screenshots, its files and what the author
+allows. Save a mod here and you'll find it in the emulator's store — it's the same list, attached
+to your account.
 
-L'icône apparaît sur l'écran d'accueil sans redémarrer.
+**Your saves.** The ones the emulator uploaded to the cloud, with their size and date. And your
+play history: the time spent on each title.
 
-### iPhone jailbreaké — l'archive `.ipa` signée
-
-Prends `NextendoApp-fakesigned.ipa`, transfère-la, puis **Filza → Installer**.
-
-⚠️ **AppSync Unified doit être installé**, sinon iOS refuse l'archive malgré la signature.
-
-### Sans jailbreak — sideload
-
-`NextendoApp.ipa` s'installe avec AltStore, SideStore ou Sideloadly, avec un compte Apple
-gratuit. L'application est alors à resigner tous les sept jours, ce dont AltStore et SideStore
-se chargent seuls tant qu'ils tournent.
+**Your console.** Scan the QR code shown by a Switch to link it to your account.
 
 ---
 
-## Il faut un compte Nextendo
+## Installing
 
-L'application ne crée pas de compte : elle en utilise un. Si tu n'en as pas, ouvre-le sur
-[nextendo.network](https://nextendo.network), puis connecte-toi ici.
+The app is not on the App Store. Three routes, depending on your device.
 
-La connexion passe par le site : l'application ne voit jamais ton mot de passe. Tu accordes des
-droits nommés — voir ton identité, tes amis, ton profil, tes sauvegardes, lier une console — et
-tu peux les retirer à tout moment depuis ton compte.
+### Jailbroken iPhone — the `.deb` package (recommended)
+
+This is the safest route: the package copies the files and never goes through iOS's install
+service, which sometimes refuses an app that Apple hasn't signed.
+
+1. Download `NextendoApp.deb` from the [latest release](../../releases/latest).
+2. Transfer it to the phone (Filza reads a network share, AirDrop and cloud storage).
+3. In **Filza**, tap the file → **Install**.
+
+The icon appears on the home screen without rebooting.
+
+### Jailbroken iPhone — the signed `.ipa`
+
+Take `NextendoApp-fakesigned.ipa`, transfer it, then **Filza → Install**.
+
+⚠️ **AppSync Unified must be installed**, otherwise iOS refuses the archive despite the signature.
+
+### No jailbreak — sideloading
+
+`NextendoApp.ipa` installs with AltStore, SideStore or Sideloadly, using a free Apple account.
+The app then has to be re-signed every seven days, which AltStore and SideStore handle on their
+own as long as they are running.
 
 ---
 
-## Ce qu'elle ne fait pas
+## You need a Nextendo account
 
-**Elle n'installe pas de mods.** Un mod est un dossier que l'émulateur pose à côté du jeu, sur
-l'ordinateur. Le téléphone sert à les trouver et à les mettre de côté ; l'installation se fait
-là-bas.
+The app doesn't create an account: it uses one. If you don't have one, open it at
+[nextendo.network](https://nextendo.network), then sign in here.
 
-**Elle ne joue pas.** C'est une application compagnon, pas un émulateur.
+Signing in goes through the site: the app never sees your password. You grant named permissions —
+see your identity, your friends, your profile, your saves, link a console — and you can revoke
+them at any time from your account.
 
 ---
 
-## Signaler un problème
+## What it doesn't do
 
-Par les [tickets](../../issues) de ce dépôt, ou sur le Discord de Nextendo Network. Dis quelle
-version tu utilises — elle est en bas de l'onglet **Compte**.
+**It doesn't install mods.** A mod is a folder the emulator places next to the game, on the
+computer. The phone is there to find them and set them aside; installing happens over there.
+
+**It doesn't play games.** This is a companion app, not an emulator.
+
+---
+
+## Reporting a problem
+
+Through this repository's [issues](../../issues), or on the Nextendo Network Discord. Say which
+version you are running — it's at the bottom of the **Account** tab.
