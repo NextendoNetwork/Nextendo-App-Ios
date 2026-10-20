@@ -60,6 +60,17 @@ Take `NextendoApp-fakesigned.ipa`, transfer it, then **Filza → Install**.
 The app then has to be re-signed every seven days, which AltStore and SideStore handle on their
 own as long as they are running.
 
+To get new versions as updates instead of downloading each `.ipa`, add this source in AltStore or
+SideStore (**Sources → +**):
+
+```
+https://raw.githubusercontent.com/NextendoNetwork/Nextendo-App-Ios/main/sidestore/source.json
+```
+
+New versions then show up in **My Apps**, ready to update. Updating the app and the seven-day
+re-signing are two separate things: the source brings new versions, the re-signing still has to
+happen on its own.
+
 ---
 
 ## You need a Nextendo account
