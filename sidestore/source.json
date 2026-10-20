@@ -1,0 +1,110 @@
+{
+  "name": "Nextendo Network",
+  "identifier": "network.nextendo.source",
+  "sourceURL": "https://raw.githubusercontent.com/NextendoNetwork/Nextendo-App-Ios/main/sidestore/source.json",
+  "subtitle": "Official apps from Nextendo Network",
+  "description": "Install and update the Nextendo App with AltStore or SideStore.",
+  "iconURL": "https://avatars.githubusercontent.com/u/308141678?v=4&s=512",
+  "website": "https://nextendo.network",
+  "tintColor": "#E8001C",
+  "nsfw": false,
+  "featuredApps": [
+    "network.nextendo.app"
+  ],
+  "apps": [
+    {
+      "name": "Nextendo App",
+      "bundleIdentifier": "network.nextendo.app",
+      "developerName": "Nextendo Network",
+      "subtitle": "Your account, your friends and your play sessions.",
+      "localizedDescription": "The companion app for Nextendo Network: your account, your friends and your play sessions, in your pocket. A nextendo.network account is required. iOS 16 and later.",
+      "iconURL": "https://avatars.githubusercontent.com/u/308141678?v=4&s=512",
+      "tintColor": "#E8001C",
+      "category": "social",
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.iokit-user-client-class",
+          "get-task-allow",
+          "keychain-access-groups",
+          "platform-application"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Pour scanner le code affiché par ta console et la lier à ton compte Nextendo."
+        }
+      },
+      "versions": [
+        {
+          "version": "0.35.0",
+          "buildVersion": "66",
+          "date": "2026-10-20T07:47:41Z",
+          "localizedDescription": "NookNext. The Animal Crossing: New Horizons service of Nextendo Network gets its place in the row of game-specific services, next to Next Smash and Next Kart: your passport, your island, your catalog, reactions, tips and custom designs, built from what the game sends each time you play online with your Nextendo account. It is not open yet: until it opens, its icon shows \"Coming soon to Nextendo Network\". Like every service, it opens from our servers, no new update needed. It signs in with your app account, nothing else to do.\n\nCustom designs. NookNext pages can use the camera or your photos to read the QR code of a design.\n\nGame-specific services. A service can now open early for its testers only: the app asks our server with your account, and the tile opens for you alone. Everyone else keeps \"Coming soon\". Your session is only handed to the Next Smash, Next Kart and NookNext pages, never to another page.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.35.0/NextendoApp.ipa",
+          "size": 2840086,
+          "sha256": "f3f3671e7c41197dd71a514a16eb36b139ff85cd46de69de69b2d9bbba1de51e",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.34.0",
+          "buildVersion": "65",
+          "date": "2026-10-19T12:36:31Z",
+          "localizedDescription": "Next Kart. The Mario Kart 8 Deluxe service of Nextendo Network, next to Next Smash in the row of game-specific services, built from the ghosts, tournaments and online races of our Mario Kart server. It signs in with your app account, nothing else to do.\n\nTime Trial rankings. Every course, cup by cup, base game and Booster Course Pass, in 150cc and 200cc: worldwide, among your friends, and a jump to your own place (\"Around me\"). Rankings by country are coming soon. The course of the week is the same for everyone all week, with its podium and the ghosts sent this week.\n\nMy page, ghosts and drivers. Your records, gold, silver and bronze medals, podiums, top 10s, staff ghosts beaten, how many courses have your ghost, and your time played. A ghost shows its rank, gap to first, lap times, staff ghost, the date of the race, and how to race it in the game. Each driver's page shows their Mii icon, records, medals, tournaments and ratings, and you can go head to head with a friend course by course, with wins, losses and draws.\n\nTournaments. Popular, recent, yours and your favorites from the game, search by name or by 12-digit code, seasons and team scores, and a code to share.\n\nRace and battle ratings. A Nextendo rating that starts at 1,000 and only moves with the online races and battles you finish on Nextendo (the VR saved in your game is never copied), ranked worldwide and by region (continent).\n\nOnline now, friends and news. Drivers online, rooms by type and the friends racing right now; the ghosts your friends sent in the last 14 days, and who beat you; announcements, events, new course records and the most played tournament. Next Kart is in 13 languages, Arabic from right to left included.\n\nGame-specific services. Next Kart opens from its icon and folds back into it, like Next Smash. Like every service, it is opened and closed from our servers: until it opens, it shows \"Coming soon to Nextendo Network\". Your session is only handed to the Next Smash and Next Kart pages, never to another page.\n\nCountry. In Account, the Country list now holds every country you can pick on nextendo.network, each with its flag, sorted by name in the app's language, with a search. Your current country shows with its flag.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.34.0/NextendoApp.ipa",
+          "size": 2833557,
+          "sha256": "8c65049dd503bccc1537557859eeb742347f4c54d5895fc68596bc09555b3b60",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.33.0",
+          "buildVersion": "63",
+          "date": "2026-10-18T00:19:04Z",
+          "localizedDescription": "Next Smash. The Smash World of Nextendo, right inside the app: stages, replays and Mii shared by players on our servers, creators, and stages you reserve here to download them in the game. It signs in with your app account, nothing else to do.\n\nGame-specific services. A new row on the Home tab, like on the Nintendo Switch Online app: one icon per game, and a tap opens its service with an opening animation. Next Smash is open; SplatNext 3, SplatNext 2 and NookNext show \"Coming soon to Nextendo Network\" until they are ready. Services are opened and closed from our servers, so a new one can appear without an app update.\n\nGames tab. The Saves tab is gone. In its place, the Games tab gathers \"What your friends are playing\" and \"On Nextendo\", now with game covers, the three most played games up front, each game's share of the players online, and how many of your friends are on it, in a match or searching.\n\nSmoother animations. The service panel now grows from the icon you tapped and folds back into it, without jumps.\n\nWeb pages fixed. Service pages loaded but stayed blank on jailbroken iPhones; they now display. Pages can no longer be pinch-zoomed out of place.\n\nTranslations. Everything is translated in all the app's languages.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.33.0/NextendoApp.ipa",
+          "size": 2782428,
+          "sha256": "178949d8b606a4e99fbe74d6ef10959570d02891cc7b9f97af9bac29087bfe1d",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.27.1",
+          "buildVersion": "51",
+          "date": "2026-10-15T19:33:15Z",
+          "localizedDescription": "Banner size limit. Animated banners (GIF and animated PNG) over 10 MB are now refused before they are sent, with a clear message, instead of failing on the server. Still pictures over 10 MB are still resized automatically.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.27.1/NextendoApp.ipa",
+          "size": 2571218,
+          "sha256": "7776ae975c6a175c7a518ef622cc75ebb34dfaef07136865006b4c84d0564b80",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.27.0",
+          "buildVersion": "50",
+          "date": "2026-10-15T18:50:07Z",
+          "localizedDescription": "Profile banners. Your banner shows on your profile and on the Home tab, and your friends' banners show on their page, framed exactly like on the console. Tap the pencil on your banner to change it: upload an image, or pick a GIF from KLIPY with a picker made like Discord's (trending GIFs, categories, search), then frame it. Animated banners are reserved for donors.\n\nAvatar decorations and nameplates. Donors and Nextendo staff show their animated Discord avatar decoration, allowed to go past the circle, and their animated nameplate with its colour gradient, on their profile and in your friends list.\n\nProfile badges. The same badges as on the website: country, staff, verified developer, server booster, donor, first anniversary and member since. Tap a badge to see what it means.\n\nOnline on the Nextendo App. While the app is open, your friends see you online on the Nextendo App in their HOME Menu. It never hides the game you are playing.\n\nTranslations. Everything new is translated in all the app's languages.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.27.0/NextendoApp.ipa",
+          "size": 2571158,
+          "sha256": "1e46aad83e85a07b561e2ecdf3aa2a65a9a5569b9e81fa2534c78310e282b944",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.22.0",
+          "buildVersion": "44",
+          "date": "2026-09-22T02:16:22Z",
+          "localizedDescription": "Closed API enforcement. The app now authenticates through its registered application\nidentity on the new Nextendo Developers gateway, same mechanism as the emulator clients.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.22.0/NextendoApp.ipa",
+          "size": 1863463,
+          "sha256": "824d71e378a26ad24ec0a4f3ac186577759544b42d84d97a3d94a07ba3dd4792",
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.21.4",
+          "buildVersion": "43",
+          "date": "2026-08-28T15:55:55Z",
+          "localizedDescription": "First public release of the companion app.",
+          "downloadURL": "https://github.com/NextendoNetwork/Nextendo-App-Ios/releases/download/v0.21.4/NextendoApp.ipa",
+          "size": 1863534,
+          "sha256": "e4a33da5983755fe7e07db7ec944e6dd0caeb01713382c48bb07bf3813ff3cdb",
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
